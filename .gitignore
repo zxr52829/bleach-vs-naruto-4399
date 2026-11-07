@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 游戏文件（体积大，不入库；按 README 流程自行获取）
+*.swf
+*.bin
+*.zip
+assets_out/
+zip_out/
+
+# 反编译产物
+src/
+decompiled/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
